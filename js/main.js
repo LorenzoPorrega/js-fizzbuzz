@@ -26,7 +26,7 @@ for (let i = 1; i <= 100; i++){
 */
 
 //Declaring const body to assign HTML's body the custom var for backgroundcolor expressed
-//in CSS file.
+//in CSS file by :root.
 const body = document.querySelector("body");
     body.style.backgroundColor = "var(--body-bg-color)";
 
